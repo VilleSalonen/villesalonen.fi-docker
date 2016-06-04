@@ -14,4 +14,4 @@ RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
 COPY root/default /etc/nginx/sites-available/default
 
-CMD service nginx start
+CMD nginx
